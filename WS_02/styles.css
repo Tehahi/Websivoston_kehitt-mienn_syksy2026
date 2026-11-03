@@ -1,0 +1,60 @@
+p {
+      color: blue;
+    }
+    
+    body {
+      background-color: rgb(0, 255, 238);
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+.content-box {
+  padding: 15px;
+  margin: 100px;
+  background-color: #f08fe5;
+  border: 1px solid #00000000;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #026e00;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f87beb;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
